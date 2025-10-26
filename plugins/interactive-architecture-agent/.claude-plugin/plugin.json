@@ -1,0 +1,14 @@
+{
+  "name": "interactive-architecture-agent",
+  "version": "1.0.0",
+  "description": "Interactive architectural review through questioning - never assumes, always asks. MUST BE USED when user mentions 'architecture', 'design patterns', or implementing features. Use PROACTIVELY for codebase review.",
+  "author": {
+    "name": "ingpoc",
+    "email": "your-email@example.com",
+    "url": "https://github.com/ingpoc"
+  },
+  "homepage": "https://github.com/ingpoc/claude-code-plugins-marketplace/tree/main/plugins/interactive-architecture-agent",
+  "repository": "https://github.com/ingpoc/claude-code-plugins-marketplace",
+  "license": "MIT",
+  "keywords": ["architecture", "interactive", "questioning", "mvp", "subagents", "clarification"]
+}
