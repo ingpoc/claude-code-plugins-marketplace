@@ -1,0 +1,68 @@
+{
+  "name": "Claude Code Plugins Marketplace",
+  "version": "1.0.0",
+  "description": "A curated marketplace of plugins for Claude Code, featuring autonomous testing agents and interactive architecture review tools.",
+  "author": {
+    "name": "ingpoc",
+    "email": "gurusharan@example.com",
+    "url": "https://github.com/ingpoc"
+  },
+  "homepage": "https://github.com/ingpoc/claude-code-plugins-marketplace",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ingpoc/claude-code-plugins-marketplace.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "marketplace", 
+    "plugins", 
+    "claude-code", 
+    "autonomous-testing", 
+    "architecture", 
+    "web-app-testing", 
+    "interactive-questioning"
+  ],
+  "categories": [
+    "AI Assistants",
+    "Development Tools", 
+    "Testing & QA",
+    "Architecture & Design"
+  ],
+  "plugins": [
+    {
+      "id": "interactive-architecture-agent",
+      "name": "Interactive Architecture Agent",
+      "description": "Expert architectural review through interactive questioning. NEVER assumes - always asks clarifying questions before making decisions. Features multi-agent system with incremental exploration and MVP-aware recommendations.",
+      "version": "1.0.0",
+      "path": "plugins/interactive-architecture-agent",
+      "category": "AI Assistants",
+      "tags": ["architecture", "interactive", "questioning", "mvp", "subagents"],
+      "featured": true,
+      "maintainer": "ingpoc",
+      "lastUpdated": "2025-10-26"
+    },
+    {
+      "id": "web-app-testing-agent", 
+      "name": "Web App Testing Agent",
+      "description": "Autonomous web application testing agent. MUST BE USED when user says 'test the web app' or mentions testing functionality. Handles server management, comprehensive testing, and intelligent reporting.",
+      "version": "1.0.0",
+      "path": "plugins/web-app-testing-agent",
+      "category": "Testing & QA",
+      "tags": ["testing", "automation", "web-app", "server-management", "e2e", "performance", "security"],
+      "featured": true,
+      "maintainer": "ingpoc",
+      "lastUpdated": "2025-10-26"
+    }
+  ],
+  "installation": {
+    "requirements": {
+      "claudeCode": ">=2025.1.0"
+    },
+    "instructions": "Clone or download plugins from this marketplace and copy to your Claude Code plugins directory."
+  },
+  "support": {
+    "issues": "https://github.com/ingpoc/claude-code-plugins-marketplace/issues",
+    "discussions": "https://github.com/ingpoc/claude-code-plugins-marketplace/discussions",
+    "documentation": "https://github.com/ingpoc/claude-code-plugins-marketplace/blob/main/README.md"
+  }
+}
