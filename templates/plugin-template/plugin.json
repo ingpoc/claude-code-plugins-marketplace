@@ -1,0 +1,51 @@
+{
+  "id": "your-plugin-name",
+  "name": "Your Plugin Name",
+  "description": "What your plugin does in Claude Code",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "main": "src/index.js",
+  "icon": "assets/icon.png",
+  "permissions": [
+    "file-system",
+    "network",
+    "claude-api"
+  ],
+  "commands": [
+    {
+      "id": "your-command",
+      "title": "Your Command",
+      "description": "What this command does",
+      "keybinding": "cmd+shift+y"
+    }
+  ],
+  "settings": [
+    {
+      "key": "apiKey",
+      "title": "API Key",
+      "description": "Your API key for external service",
+      "type": "string",
+      "required": true,
+      "default": ""
+    },
+    {
+      "key": "enableFeature",
+      "title": "Enable Feature",
+      "description": "Enable advanced feature",
+      "type": "boolean",
+      "required": false,
+      "default": true
+    }
+  ],
+  "menus": [
+    {
+      "id": "context-menu",
+      "title": "Your Plugin",
+      "commands": ["your-command"]
+    }
+  ],
+  "activationEvents": [
+    "onCommand:your-command",
+    "onStartup"
+  ]
+}
